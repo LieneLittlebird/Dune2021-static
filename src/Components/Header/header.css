@@ -1,0 +1,28 @@
+#navbar {
+  background-color: #534438;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 0px;
+  height: 2.4em;
+  margin-top: 0px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 5px 20px 5px 5px;
+}
+
+#navbar-img {
+  max-width: 50px;
+  max-height: 30px;
+}
+
+#header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 18px;
+}

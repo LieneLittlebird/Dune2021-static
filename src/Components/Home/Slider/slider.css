@@ -1,0 +1,43 @@
+.slider {
+  position: relative;
+  height: 84vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image {
+  border-radius: 5px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* Animations */
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

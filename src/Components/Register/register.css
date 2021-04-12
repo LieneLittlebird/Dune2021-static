@@ -1,0 +1,39 @@
+.reg-label-parent {
+  color: #534438;
+  font-weight: bold;
+  margin: 10px;
+  display: inline-block;
+  width: 150px;
+}
+
+.reg-field {
+  margin: 10px;
+  padding: 5px;
+}
+
+#country-input {
+  width: 184px;
+}
+
+#form-id {
+  border: 1.8px solid #785237;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#termsOfService {
+  display: inline;
+}
+
+#reg-button {
+  margin: 10px;
+  background-color: #534438;
+  color: white;
+  border-radius: 4px;
+  height: 30px;
+  width: max-content;
+}
+
+#from-wrapper {
+  max-width: 1000px;
+}
