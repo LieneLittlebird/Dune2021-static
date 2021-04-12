@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
-import Discussion from "./Components/Discussion/Discussion";
+import Chat from "./Components/Chat/Chat";
 import Register from "./Components/Register/Register";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
@@ -18,8 +18,8 @@ const App = () => (
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/discussion">
-            <Discussion />
+          <Route path="/chat">
+            <Chat />
           </Route>
           <Route path="/register">
             <Register />

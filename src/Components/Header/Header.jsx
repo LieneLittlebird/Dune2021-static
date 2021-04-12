@@ -16,8 +16,8 @@ const Header = () => (
       </li>
 
       <li>
-        <NavLink className="nav-link" to="/discussion">
-          Discussion
+        <NavLink className="nav-link" to="/chat">
+          Chat
         </NavLink>
       </li>
       <li>
