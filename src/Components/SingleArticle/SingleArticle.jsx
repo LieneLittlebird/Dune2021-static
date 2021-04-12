@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from "react";
-import ImageSlider from "../../Home/Slider/ImageSlider";
+import ImageSlider from "../Home/Slider/ImageSlider";
 import AlbumData from "./AlbumData";
 import "./single.css";
 import single2 from "./single2.jpg";

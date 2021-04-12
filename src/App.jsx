@@ -2,13 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
-import News from "./Components/News/News";
 import Discussion from "./Components/Discussion/Discussion";
 import Register from "./Components/Register/Register";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import "./App.css";
-import SingleArticle from "./Components/News/SingleArticle/SingleArticle";
+import SingleArticle from "./Components/SingleArticle/SingleArticle";
 
 const App = () => (
   <div>
@@ -18,9 +17,6 @@ const App = () => (
         <Switch>
           <Route exact path="/">
             <Home />
-          </Route>
-          <Route path="/news">
-            <News />
           </Route>
           <Route path="/discussion">
             <Discussion />

@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
-import axios from "axios";
+// import axios from "axios";
 
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { EXPRESS_API } from "../../constants";
+// import { EXPRESS_API } from "../../constants";
 import "./register.css";
 
 const Register = () => (
@@ -36,12 +36,12 @@ const Register = () => (
         "You must agree to the Terms and conditions"
       ),
     })}
-    onSubmit={async (values, { setSubmitting }) => {
-      await axios({
-        method: "post",
-        url: `${EXPRESS_API}/addForm`,
-        data: values,
-      });
+    onSubmit={(values, { setSubmitting }) => {
+      // await axios({
+      //   method: "post",
+      //   url: `${EXPRESS_API}/addForm`,
+      //   data: values,
+      // });
       setSubmitting(false);
     }}
   >
