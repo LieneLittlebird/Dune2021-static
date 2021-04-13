@@ -37,6 +37,7 @@ const Register = () => (
       setTimeout(() => {
         console.log(JSON.stringify(values, null, 2));
         setSubmitting(false);
+        document.location.href = "/";
       }, 400);
     }}
   >
