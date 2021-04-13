@@ -15,7 +15,6 @@
 
 .tabs-link {
   color: #534438;
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -23,9 +22,6 @@
   display: flex;
   align-self: center;
 }
-/* .tabs-link hover {
-  color: #fbe1bb;
-} */
 
 #tab-panel {
   display: flex;

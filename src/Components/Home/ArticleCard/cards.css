@@ -21,6 +21,7 @@
 h3 .article-card-inner {
   margin-bottom: 0px;
   padding-bottom: 0px;
+  color: #534438;
 }
 
 .article-link {
@@ -33,4 +34,12 @@ h3 .article-card-inner {
 
 .article-card-p {
   padding: 0px;
+}
+
+.article-card-link {
+  color: #c98a2c;
+}
+
+.article-card-link:hover {
+  color: #eeb45d;
 }
