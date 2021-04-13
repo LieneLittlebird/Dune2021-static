@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./header.css";
-import venustransp from "./venustransp.png";
+import venustransp from "../../Assets/images/venustransp.png";
 
 const Header = () => (
   <div>

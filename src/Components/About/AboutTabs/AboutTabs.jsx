@@ -3,10 +3,10 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "./tabs.css";
 import { Link } from "react-router-dom";
-import DeniV from "./Deni.jpg";
-import Poster from "./Poster.jpg";
-import Herbert from "./Herbert.jpg";
-import Series from "./Series.jpg";
+import DeniV from "../../../Assets/images/Deni.jpg";
+import Poster from "../../../Assets/images/Poster.jpg";
+import Herbert from "../../../Assets/images/Herbert.jpg";
+import Series from "../../../Assets/images/Series.jpg";
 
 const AboutTabs = () => (
   <div>

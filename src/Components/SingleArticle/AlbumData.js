@@ -1,6 +1,6 @@
-import single5 from "./single5.jpg";
-import single2 from "./single2.jpg";
-import single4 from "./single4.jpg";
+import single5 from "../../Assets/images/single5.jpg";
+import single2 from "../../Assets/images/single2.jpg";
+import single4 from "../../Assets/images/single4.jpg";
 
 const AlbumData = [
   {
