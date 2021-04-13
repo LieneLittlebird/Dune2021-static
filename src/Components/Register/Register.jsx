@@ -1,10 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from "react";
-// import axios from "axios";
-
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-// import { EXPRESS_API } from "../../constants";
 import "./register.css";
 
 const Register = () => (
@@ -37,18 +34,12 @@ const Register = () => (
       ),
     })}
     onSubmit={(values, { setSubmitting }) => {
-      // await axios({
-      //   method: "post",
-      //   url: `${EXPRESS_API}/addForm`,
-      //   data: values,
-      // });
       setSubmitting(false);
     }}
   >
-    <div>
-      <h3>Become a member of the Dune club!</h3>
-
-      <Form id="form-id">
+    <div id="register-all">
+      <h2>Become a member of the Dune club!</h2>
+      <Form id="register-main">
         <div id="form-wrapper">
           <div>
             <label htmlFor="firstName" className="reg-label-parent">
