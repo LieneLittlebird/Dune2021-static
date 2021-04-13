@@ -10,8 +10,7 @@
   margin: 10px;
   width: 350px;
   height: 220px;
-
-  box-shadow: 2px 2px 15px 1px #000000e6;
+  box-shadow: 2px 2px 15px 1px #00000073;
 }
 
 .article-card-inner {
@@ -26,6 +25,10 @@ h3 .article-card-inner {
 
 .article-link {
   color: #534438;
+}
+
+.article-link:hover {
+  color: #caa978;
 }
 
 .article-card-p {

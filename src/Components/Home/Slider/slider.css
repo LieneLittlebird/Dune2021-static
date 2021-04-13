@@ -8,6 +8,7 @@
 
 .slider-image {
   border-radius: 5px;
+  box-shadow: 2px 2px 15px 1px #00000083;
 }
 
 .right-arrow {
