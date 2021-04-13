@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
-    "linebreak-style": ["warn", "windows"],
+    "linebreak-style": 0,
     "import/extensions": 0,
     "react/prop-types": "off",
   },

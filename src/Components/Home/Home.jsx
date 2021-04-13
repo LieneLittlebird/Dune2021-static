@@ -2,6 +2,7 @@ import React from "react";
 import ArticleCards from "./ArticleCards/ArticleCards";
 import ImageSlider from "./Slider/ImageSlider";
 import SliderData from "./Slider/SliderData";
+import "./home.css";
 
 const Home = () => (
   <div>
@@ -9,7 +10,11 @@ const Home = () => (
       slides={SliderData}
       arrowStyle={{ color: "black", offset: 200 }}
     />
-    <ArticleCards />
+    <div className="home-cards-parent">
+      <ArticleCards />
+      <ArticleCards />
+      <ArticleCards />
+    </div>
   </div>
 );
 
