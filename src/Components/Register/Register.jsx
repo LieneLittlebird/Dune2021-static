@@ -34,7 +34,10 @@ const Register = () => (
       ),
     })}
     onSubmit={(values, { setSubmitting }) => {
-      setSubmitting(false);
+      setTimeout(() => {
+        console.log(JSON.stringify(values, null, 2));
+        setSubmitting(false);
+      }, 400);
     }}
   >
     <div id="register-all">
