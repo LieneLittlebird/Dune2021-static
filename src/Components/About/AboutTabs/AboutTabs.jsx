@@ -5,73 +5,42 @@ import "./tabs.css";
 import { Link } from "react-router-dom";
 import DeniV from "../../../Assets/images/Deni.jpg";
 import Poster from "../../../Assets/images/Poster.jpg";
-import Herbert from "../../../Assets/images/Herbert.jpg";
 import Series from "../../../Assets/images/Series.jpg";
 
 const AboutTabs = () => (
-  <div>
-    <Tabs id="about-tabs">
+  <div id="about-tabs-main">
+    <Tabs>
       <TabList id="about-tabs-list">
         <Tab>Dune 2021</Tab>
-        <Tab>Frank Herbert</Tab>
         <Tab>Deni Villenueve</Tab>
         <Tab>Duniverse</Tab>
       </TabList>
+      <TabPanel className="tabs-panel">
+        <img src={Poster} alt="" id="tabs-img-dune" />
+        <p className="tabs-p">
+          <Link
+            to="https://en.wikipedia.org/wiki/Dune_(2021_film)"
+            className="tabs-link"
+          >
+            Dune
+          </Link>
+          is an upcoming science fiction film directed by Denis Villeneuve with
+          a screenplay by Jon Spaihts, Villeneuve, and Eric Roth. The film is an
+          international co-production of Canada, Hungary, the United Kingdom,
+          and the United States. It is the first of a planned two-part
+          adaptation of the 1965 novel of the same name by Frank Herbert, which
+          will cover roughly the first half of the book. The film stars an
+          ensemble cast including Timothée Chalamet, Rebecca Ferguson, Oscar
+          Isaac, Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley
+          Henderson, Zendaya, David Dastmalchian, Chang Chen, Sharon
+          Duncan-Brewster, Charlotte Rampling, Jason Momoa, and Javier Bardem.
+          Dune is scheduled to be released theatrically in the United States in
+          IMAX and 3D on October 1, 2021, by Warner Bros. Pictures, as well as a
+          month-long simultaneous release on the HBO Max streaming service.
+        </p>
+      </TabPanel>
 
-      <TabPanel>
-        <div id="tab-panel">
-          <img src={Poster} alt="" id="tabs-img-dune" />
-          <p className="tabs-p">
-            <Link
-              to="https://en.wikipedia.org/wiki/Dune_(2021_film)"
-              className="tabs-link"
-            >
-              Dune
-            </Link>
-            is an upcoming science fiction film directed by Denis Villeneuve
-            with a screenplay by Jon Spaihts, Villeneuve, and Eric Roth. The
-            film is an international co-production of Canada, Hungary, the
-            United Kingdom, and the United States. It is the first of a planned
-            two-part adaptation of the 1965 novel of the same name by Frank
-            Herbert, which will cover roughly the first half of the book. The
-            film stars an ensemble cast including Timothée Chalamet, Rebecca
-            Ferguson, Oscar Isaac, Josh Brolin, Stellan Skarsgård, Dave
-            Bautista, Stephen McKinley Henderson, Zendaya, David Dastmalchian,
-            Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling, Jason Momoa,
-            and Javier Bardem. Dune is scheduled to be released theatrically in
-            the United States in IMAX and 3D on October 1, 2021, by Warner Bros.
-            Pictures, as well as a month-long simultaneous release on the HBO
-            Max streaming service.
-          </p>
-        </div>
-      </TabPanel>
-      <TabPanel>
-        <div id="tab-panel">
-          <img src={Herbert} alt="" id="tabs-img" />
-          <p className="tabs-p">
-            <Link
-              to="https://en.wikipedia.org/wiki/Frank_Herbert"
-              className="tabs-link"
-            >
-              Franklin Patrick Herbert Jr
-            </Link>
-            (October 8, 1920 – February 11, 1986) was an American
-            science-fiction author best known for the 1965 novel Dune and its
-            five sequels. Though he became famous for his novels, he also wrote
-            short stories and worked as a newspaper journalist, photographer,
-            book reviewer, ecological consultant, and lecturer. The Dune saga,
-            set in the distant future, and taking place over millennia, explores
-            complex themes, such as the long-term survival of the human species,
-            human evolution, planetary science and ecology, and the intersection
-            of religion, politics, economics and power in a future where
-            humanity has long since developed interstellar travel and settled
-            many thousands of worlds. Dune is the best-selling science fiction
-            novel of all time, and the whole series is widely considered to be
-            among the classics of the genre.
-          </p>
-        </div>
-      </TabPanel>
-      <TabPanel>
+      <TabPanel className="tabs-panel">
         <div id="tab-panel">
           <img src={DeniV} alt="" id="tabs-img" />
           <p className="tabs-p">
@@ -100,7 +69,7 @@ const AboutTabs = () => (
           </p>
         </div>
       </TabPanel>
-      <TabPanel>
+      <TabPanel className="tabs-panel">
         <div id="tab-panel">
           <img src={Series} alt="" id="tabs-img" />
           <p className="tabs-p">

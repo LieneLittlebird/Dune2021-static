@@ -4,7 +4,7 @@ import AboutMaps from "./AboutMaps/AboutMaps";
 import "./about.css";
 
 const About = () => (
-  <div>
+  <div id="about-main">
     <AboutTabs />
     <div id="contacts-all">
       <div id="contacts-left">
@@ -16,7 +16,7 @@ const About = () => (
       <div id="contacts-right">
         <div className="contacts-el-right">
           <h3 className="contacts-h3">Address:</h3>
-          <p className="contacts-right-p">Desert Lane 412</p>
+          <p className="contacts-right-p">Desert Lane 420</p>
           <h3 className="contacts-h3">E-mail:</h3>
           <p className="contacts-right-p">info@dune2021.com</p>
           <h3 className="contacts-h3"> Phone:</h3>
