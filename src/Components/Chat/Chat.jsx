@@ -39,10 +39,10 @@ const Discussion = () => {
   };
 
   return (
-    <div id="discussion-main">
-      <h3>Chat with other Dune fans</h3>
-      <form id="form-main">
-        <div id="chat-window">
+    <div id="chat-main">
+      <h2 id="chat-heading">Chat with other Dune fans</h2>
+      <form id="chat-form">
+        <div>
           <div id="chat-postarea">
             {posts.map((post) => (
               <div
@@ -74,7 +74,7 @@ const Discussion = () => {
                 onChange={changeMessage}
               />
             </label>
-            <button id="submit-button" type="submit" onClick={postMessage}>
+            <button id="chat-post-button" type="submit" onClick={postMessage}>
               Submit
             </button>
           </div>
