@@ -2,7 +2,6 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "./tabs.css";
-import { Link } from "react-router-dom";
 import DeniV from "../../../Assets/images/Deni.jpg";
 import Poster from "../../../Assets/images/Poster.jpg";
 import Series from "../../../Assets/images/Series.jpg";
@@ -19,12 +18,12 @@ const AboutTabs = () => (
         <img src={Poster} alt="" id="tabs-img-dune" />
         <p className="tabs-p">
           Dune is an upcoming{" "}
-          <Link
-            to="https://en.wikipedia.org/wiki/Dune_(2021_film)"
+          <a
+            href="https://en.wikipedia.org/wiki/Dune_(2021_film)"
             className="tabs-link"
           >
             science fiction film{" "}
-          </Link>{" "}
+          </a>{" "}
           directed by Denis Villeneuve with a screenplay by Jon Spaihts,
           Villeneuve, and Eric Roth. The film is an international co-production
           of Canada, Hungary, the United Kingdom, and the United States. It is
@@ -44,12 +43,12 @@ const AboutTabs = () => (
       <TabPanel className="tabs-panel">
         <img src={DeniV} alt="" id="tabs-img-deni" />
         <p className="tabs-p">
-          <Link
-            to="https://en.wikipedia.org/wiki/Frank_Herbert"
+          <a
+            href="https://en.wikipedia.org/wiki/Frank_Herbert"
             className="tabs-link"
           >
             Denis Villeneuve
-          </Link>{" "}
+          </a>{" "}
           OC CQ (French: [dəni vilnœv]; born October 3, 1967) is a French
           Canadian film director, producer, and screenwriter. He is a four-time
           recipient of the Canadian Screen Award (formerly Genie Award) for Best
@@ -72,12 +71,12 @@ const AboutTabs = () => (
         <img src={Series} alt="" id="tabs-img-book" />
         <p className="tabs-p">
           Dune is a science fiction media franchise that originated with the{" "}
-          <Link
-            to="https://en.wikipedia.org/wiki/Dune_(franchise)"
+          <a
+            href="https://en.wikipedia.org/wiki/Dune_(franchise)"
             className="tabs-link"
           >
             1965 novel{" "}
-          </Link>
+          </a>
           Dune by Frank Herbert and has continued to add new publications. Dune
           is frequently cited as the best selling science fiction novel in
           history. It won the inaugural Nebula Award for Best Novel in 1965 and

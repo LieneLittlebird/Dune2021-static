@@ -13,12 +13,12 @@ const ArticleCards = () => (
         <div className="article-card-inner">
           <p className="article-card-p">
             Dune is the latest movie to get{" "}
-            <Link
-              to="https://www.theverge.com/2020/10/5/21453047/dune-delay-release-date-warner-bros-wonder-woman-disney-marvel-black-widow"
+            <a
+              href="https://www.theverge.com/2020/10/5/21453047/dune-delay-release-date-warner-bros-wonder-woman-disney-marvel-black-widow"
               className="article-card-link"
             >
               pushed back to 2021
-            </Link>
+            </a>
             , following a number of other highly anticipated blockbuster films,
             including Black Widow and No Time to Die. It’ll now be released on
             October 1st, 2021 — nearly a full year after the original December
