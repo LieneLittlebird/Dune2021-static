@@ -35,7 +35,7 @@ const Register = () => (
     })}
     onSubmit={(values, { setSubmitting }) => {
       setTimeout(() => {
-        console.log(JSON.stringify(values, null, 2));
+        // console.log(JSON.stringify(values, null, 2));
         setSubmitting(false);
         document.location.href = "/";
       }, 400);
